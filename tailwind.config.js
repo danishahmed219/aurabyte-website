@@ -8,8 +8,6 @@ export default {
     extend: {
       fontFamily: {
         sans: ['"Helvetica Neue"'],
-
-        
       },
     },
   },

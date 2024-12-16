@@ -24,7 +24,7 @@ export const LandingPage = () => {
       {/* Center Content */}
       <div className="flex flex-col items-center text-center px-4">
        <h1
-          className="text-[40px] sm:text-[50px] md:text-[85px] text-white leading-[1.2] md:leading-[90.82px] 
+          className="text-[40px] top-[280.39px] text-gradient sm:text-[50px] md:text-[85px] text-white leading-[1.2] md:leading-[90.82px] 
                      tracking-[-1%] text-center w-[90%] md:w-[1200px] absolute top-[15%] md:top-[259.21px] 
                      left-[50%] transform -translate-x-1/2"
         >
@@ -32,9 +32,9 @@ export const LandingPage = () => {
         </h1> 
 
         <p
-          className="text-[27.29px] font-[400] leading-[33.43px] tracking-[-0.25px] text-center mb-6 
+          className="text-sm text-solid-color font-[200] leading-[33.43px] tracking-[-0.25px] text-center mb-6
                      w-[90%] md:w-[1102px] h-auto absolute top-[35%] md:top-[385.39px] left-[50%] transform -translate-x-1/2 
-                     text-base sm:text-lg md:text-[24.29px] leading-relaxed"
+                     text-base sm:text-lg md:text-[24.29px] top-[385.39px] leading-relaxed"
         >
           The future of software is almost here. Stay tuned for our launch.
         </p>
