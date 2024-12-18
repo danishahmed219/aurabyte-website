@@ -1,6 +1,6 @@
 import React from 'react';
 import BackGround from '../../assets/Section.png';
-import AuraLogo from '../../assets/AuraLogo.png';
+import AuraLogo from '../../assets/logo.svg';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export const LandingPage = () => {
@@ -9,19 +9,12 @@ export const LandingPage = () => {
       className="bg-cover bg-center h-screen w-full flex flex-col justify-between text-[#D3D3D3] relative"
       style={{ backgroundImage: `url(${BackGround})` }}
     >
-      {/* Dark overlay for better text visibility */}
-      <div className="absolute inset-0 bg-black opacity-35"></div>
-
-      {/* Logo at the Top */}
-      <div className="flex justify-center items-center mt-[74px] sm:mt-[30px]">
+      <div className="flex justify-center items-center mt-[100px] sm:mt-[100px]">
         <img
           src={AuraLogo}
           alt="AuraLogo"
-          className="h-[30px] w-[205.08px] md:h-17 sm:h-10"
         />
       </div> 
-
-      {/* Center Content */}
       <div className="flex flex-col items-center text-center px-4">
        <h1
           className="text-[40px] top-[280.39px] text-gradient sm:text-[50px] md:text-[85px] text-white leading-[1.2] md:leading-[90.82px] 
@@ -41,8 +34,6 @@ export const LandingPage = () => {
  
 
       </div>
-
-      {/* Social Media Links */}
       <div
         className="flex gap-[13.35px] absolute top-[70%] md:top-[573px] left-[50%] transform -translate-x-1/2 
                      sm:gap-[8px] sm:top-[630px]"
@@ -99,8 +90,6 @@ export const LandingPage = () => {
           <i className="fa-brands fa-facebook-f fa-2xs"></i>
         </a>
       </div>
-
-      {/* Footer Link */}
       <div className="text-center mb-10 sm:mb-14">
         <a
           href="https://aurabyte.io"
