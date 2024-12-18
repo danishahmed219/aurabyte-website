@@ -9,7 +9,7 @@ export const LandingPage = () => {
       className="bg-cover bg-center h-screen w-full flex flex-col justify-between text-[#D3D3D3] relative"
       style={{ backgroundImage: `url(${BackGround})` }}
     >
-      <div className="flex justify-center items-center mt-[100px] sm:mt-[100px]">
+      <div className="flex justify-center items-center mt-[50px] sm:mt-[50px]">
         <img
           src={AuraLogo}
           alt="AuraLogo"
