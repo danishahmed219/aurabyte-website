@@ -1,28 +1,35 @@
-import React from 'react';
-import BackGround from '../../assets/Section.png';
-import AuraLogo from '../../assets/logo.svg';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import React from "react";
+// import BackGround from '../../assets/Section.png';
+// import AuraLogo from '../../assets/logo.svg';
+import BackGround from "../../../public/assets/Section.png";
+import AuraLogo from "../../../public/assets/logo.svg";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export const LandingPage = () => {
   return (
+    // <div
+    //   className="bg-cover bg-center h-screen w-full flex flex-col justify-between text-[#D3D3D3] relative"
+    //   style={{ backgroundImage: `url(${BackGround})` }}
+    // >
     <div
-      className="bg-cover bg-center h-screen w-full flex flex-col justify-between text-[#D3D3D3] relative"
-      style={{ backgroundImage: `url(${BackGround})` }}
+      className="h-screen w-full flex flex-col justify-between text-[#D3D3D3] relative "
+      style={{
+        backgroundImage: "url('/assets/Section.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
     >
       <div className="flex justify-center items-center mt-[50px] sm:mt-[50px]">
-        <img
-          src={AuraLogo}
-          alt="AuraLogo"
-        />
-      </div> 
+        <img src={"/assets/logo.svg"} alt="AuraLogo" />
+      </div>
       <div className="flex flex-col items-center text-center px-4">
-       <h1
+        <h1
           className="text-[40px] top-[280.39px] text-gradient sm:text-[50px] md:text-[85px] text-white leading-[1.2] md:leading-[90.82px] 
                      tracking-[-1%] text-center w-[90%] md:w-[1200px] absolute top-[15%] md:top-[259.21px] 
                      left-[50%] transform -translate-x-1/2"
         >
           Website Launching Soon!
-        </h1> 
+        </h1>
 
         <p
           className="text-sm text-solid-color font-[200] leading-[33.43px] tracking-[-0.25px] text-center mb-6
@@ -31,8 +38,6 @@ export const LandingPage = () => {
         >
           The future of software is almost here. Stay tuned for our launch.
         </p>
- 
-
       </div>
       <div
         className="flex gap-[13.35px] absolute top-[70%] md:top-[573px] left-[50%] transform -translate-x-1/2 
@@ -77,7 +82,7 @@ export const LandingPage = () => {
           <i className="fa-brands fa-twitter fa-2xs"></i>
         </a>
 
-       {/* facebook icons */}
+        {/* facebook icons */}
         <a
           href="https://facebook.com"
           target="_blank"
